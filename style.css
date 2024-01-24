@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.toolbox-cont{
+    height: 5rem;
+    background-color: #4b4b4b;
+    display: flex;
+    align-items: center;
+}
+.toolbox-cont > *{
+    margin-left: 4rem;
+}
+
+
+.toolbox-priority-cont{
+    height: 3.5rem;
+    width: 18rem;
+    background-color:#3d3d3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.color:hover{
+    background-color: #485460;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.action-btn-cont{
+    height: 3.5rem;
+    width: 8rem;
+    background-color:#3d3d3d;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.action-btn-cont > *{
+    display: flex;
+    width: 50%;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-btn:hover{
+   background-color:#4BB543;
+}
+
+.removal-btn:hover{
+    background-color: #4BB543;
+}
+
+
+.main-cont{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.ticket-cont{
+    height: 12rem;
+    width: 15rem;
+    background-color: coral;
+}
+
+.ticket-color{
+    height: 1rem;
+    /* background-color: black; */
+}
+
+.ticket-id{
+    background-color: yellow;
+    height: 2rem;
+}
+
+.ticket-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+.modal-cont{
+    display: flex;
+    height: 50vh;
+    width: 45vw;
+    background-color: lightsalmon;
+    position: absolute;
+    top: 31%;
+    left: 28%;
+    display: none;
+}
+
+.textArea-cont{
+    width: 71%;
+    height: 100%;
+    resize: none;
+    border: none;
+    background-color:#dfe4ea;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.priority-colors-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#4b4b4b;
+}
+
+.priority-colors{
+    height:20%;
+    width: 80%;
+}
+
+.active{
+    border:5px solid lightsalmon;
+}
+
